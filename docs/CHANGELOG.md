@@ -1,6 +1,13 @@
 # Changelog
 
-All notable changes to the StreamDeck Pi project.
+All notable changes to TheStreamDeck project.
+
+## [0.3.1] - 2026-04-05
+
+### Changed
+- Project renamed from "StreamDeck Pi" to "TheStreamDeck"
+- Project directory moved from `PROJECTS/private/streaming-appliance/` to `PROJECTS/public/TheStreamDeck/`
+- All references updated across specs, diagrams, KiCad schematic, LaTeX sources, and PAI memory
 
 ## [0.3.0] - 2026-04-05
 

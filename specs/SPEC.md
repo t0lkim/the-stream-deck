@@ -1,4 +1,4 @@
-# StreamDeck Pi — Unified Streaming Audio Appliance
+# TheStreamDeck — Unified Streaming Audio Appliance
 
 **Version:** 0.2.0 (Design Spec)  
 **Author:** Mike & Maia  

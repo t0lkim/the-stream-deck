@@ -5,7 +5,7 @@
 	(uuid "c029417a-dbed-423a-bde5-35f1d0e09bef")
 	(paper "A4")
 	(title_block
-		(title "StreamDeck Pi - VU Meter Driver")
+		(title "TheStreamDeck - VU Meter Driver")
 		(date "2026-04-05")
 		(rev "A")
 		(company "Mike and Maia")
@@ -2281,7 +2281,7 @@
 		(stroke (width 0) (type solid))
 		(uuid "c6214183-232f-4873-9e02-f65837bb276a")
 	)
-	(text "STREAMDECK PI - VU METER DRIVER"
+	(text "THESTREAMDECK - VU METER DRIVER"
 		(exclude_from_sim no)
 		(at 25 15 0)
 		(effects
