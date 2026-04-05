@@ -92,6 +92,21 @@
           <mxGeometry x="148" y="315" width="1305" height="210" as="geometry"/>
         </mxCell>
 
+        <!-- ======== FEET (NAD-style, 20mm dia x 6mm tall, 20mm inset) ======== -->
+        <!-- At 3px/mm: 60px wide, 18px tall, 60px inset from case edges -->
+        <!-- Front-left foot -->
+        <mxCell id="foot-fl" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#333333;strokeColor=#1a1a2e;strokeWidth=1;arcSize=40;opacity=30;" vertex="1" parent="content-layer">
+          <mxGeometry x="208" y="525" width="60" height="18" as="geometry"/>
+        </mxCell>
+        <!-- Front-right foot -->
+        <mxCell id="foot-fr" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#333333;strokeColor=#1a1a2e;strokeWidth=1;arcSize=40;opacity=30;" vertex="1" parent="content-layer">
+          <mxGeometry x="1333" y="525" width="60" height="18" as="geometry"/>
+        </mxCell>
+        <!-- Foot label -->
+        <mxCell id="foot-label" value="Feet: 20mm dia x 6mm h, 20mm inset (NAD style)" style="text;html=1;align=left;verticalAlign=middle;fontSize=8;fontColor=#999999;" vertex="1" parent="content-layer">
+          <mxGeometry x="148" y="650" width="400" height="16" as="geometry"/>
+        </mxCell>
+
         <!-- ======== 5" DISPLAY (centre) ======== -->
         <mxCell id="display" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#0f3460;strokeWidth=2;dashed=1;dashPattern=8 4;" vertex="1" parent="content-layer">
           <mxGeometry x="634" y="327" width="333" height="186" as="geometry"/>
