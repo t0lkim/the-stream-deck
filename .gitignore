@@ -1,0 +1,14 @@
+# KiCad
+*.lck
+*.bak
+*-backups/
+*.kicad_prl
+fp-info-cache
+.history/
+
+# OS
+.DS_Store
+
+# Build
+target/
+.build/

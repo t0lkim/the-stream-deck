@@ -1,0 +1,59 @@
+\documentclass{article}
+\usepackage[a3paper,landscape,margin=15mm]{geometry}
+\usepackage{tikz}
+\usepackage{fontspec}
+\setmainfont{Inter}
+\pagestyle{empty}
+
+\begin{document}
+\noindent
+\begin{center}
+{\fontsize{16}{20}\selectfont\bfseries StreamDeck Pi --- 13.3\textquotedbl{} Display Template (1920\texttimes1080, 16:9)}\\[4pt]
+{\fontsize{10}{14}\selectfont\color{gray} Print at 100\% on A3 paper --- actual size for sketching}
+\end{center}
+
+\vfill
+
+\begin{center}
+\begin{tikzpicture}
+  % Screen: 294.4mm x 165.6mm (13.3" 16:9)
+  \def\sw{29.44}  % screen width in cm
+  \def\sh{16.56}  % screen height in cm
+
+  % Grid (1cm spacing) - light grey
+  \begin{scope}
+    \clip (0,0) rectangle (\sw,\sh);
+    \foreach \x in {0,1,...,29} {
+      \draw[gray!20, line width=0.3pt] (\x,0) -- (\x,\sh);
+    }
+    \foreach \y in {0,1,...,16} {
+      \draw[gray!20, line width=0.3pt] (0,\y) -- (\sw,\y);
+    }
+  \end{scope}
+
+  % Screen border
+  \draw[black, line width=1pt] (0,0) rectangle (\sw,\sh);
+
+  % Pixel dimension labels
+  \node[anchor=south west, font=\fontsize{8}{10}\selectfont, text=gray!50] at (0.2,\sh-0.5) {1920px};
+  \node[anchor=south west, font=\fontsize{8}{10}\selectfont, text=gray!50, rotate=90] at (\sw-0.5,0.2) {1080px};
+
+  % Centre crosshair (subtle)
+  \draw[gray!15, line width=0.5pt, dashed] (\sw/2,0) -- (\sw/2,\sh);
+  \draw[gray!15, line width=0.5pt, dashed] (0,\sh/2) -- (\sw,\sh/2);
+
+  % Physical dimension arrows
+  \draw[gray!40, line width=0.4pt, <->] (0,-0.8) -- (\sw,-0.8) node[midway, below, font=\fontsize{7}{9}\selectfont, text=gray!50] {294.4mm (11.59\textquotedbl)};
+  \draw[gray!40, line width=0.4pt, <->] (-0.6,0) -- (-0.6,\sh) node[midway, left, font=\fontsize{7}{9}\selectfont, text=gray!50, rotate=90, anchor=south] {165.6mm (6.52\textquotedbl)};
+
+\end{tikzpicture}
+\end{center}
+
+\vspace{2mm}
+\begin{center}
+{\fontsize{9}{12}\selectfont\color{gray} Waveshare 13.3\textquotedbl{} HDMI LCD (H) V2 --- 1920\texttimes1080 IPS}
+\end{center}
+
+\vfill
+
+\end{document}
