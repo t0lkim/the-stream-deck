@@ -1,0 +1,220 @@
+<mxfile host="Electron" compressed="false" version="24.0" type="device">
+  <diagram id="conc-001" name="Front Panel Layout">
+    <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0"/>
+        <!-- Background layer (locked) -->
+        <mxCell id="bg-layer" value="Background (Locked)" parent="0" style="locked=1;"/>
+        <!-- Content layer (editable) -->
+        <mxCell id="content-layer" value="Content" parent="0"/>
+
+        <!-- ============================================================ -->
+        <!-- BORDER                                                       -->
+        <!-- ============================================================ -->
+        <mxCell id="border-outer" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#1a1a2e;strokeWidth=3;moveable=0;editable=0;deletable=0;connectable=0;resizable=0;" vertex="1" parent="bg-layer">
+          <mxGeometry x="20" y="20" width="1560" height="1060" as="geometry"/>
+        </mxCell>
+        <mxCell id="border-inner" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#1a1a2e;strokeWidth=1;moveable=0;editable=0;deletable=0;connectable=0;resizable=0;" vertex="1" parent="bg-layer">
+          <mxGeometry x="25" y="25" width="1550" height="1050" as="geometry"/>
+        </mxCell>
+
+        <!-- Grid zone labels -->
+        <mxCell id="zone-col-1" value="1" style="text;html=1;align=center;verticalAlign=middle;fontSize=9;fontColor=#999999;moveable=0;editable=0;deletable=0;connectable=0;" vertex="1" parent="bg-layer"><mxGeometry x="149" y="22" width="20" height="18" as="geometry"/></mxCell>
+        <mxCell id="zone-col-2" value="2" style="text;html=1;align=center;verticalAlign=middle;fontSize=9;fontColor=#999999;moveable=0;editable=0;deletable=0;connectable=0;" vertex="1" parent="bg-layer"><mxGeometry x="407" y="22" width="20" height="18" as="geometry"/></mxCell>
+        <mxCell id="zone-col-3" value="3" style="text;html=1;align=center;verticalAlign=middle;fontSize=9;fontColor=#999999;moveable=0;editable=0;deletable=0;connectable=0;" vertex="1" parent="bg-layer"><mxGeometry x="665" y="22" width="20" height="18" as="geometry"/></mxCell>
+        <mxCell id="zone-col-4" value="4" style="text;html=1;align=center;verticalAlign=middle;fontSize=9;fontColor=#999999;moveable=0;editable=0;deletable=0;connectable=0;" vertex="1" parent="bg-layer"><mxGeometry x="923" y="22" width="20" height="18" as="geometry"/></mxCell>
+        <mxCell id="zone-col-5" value="5" style="text;html=1;align=center;verticalAlign=middle;fontSize=9;fontColor=#999999;moveable=0;editable=0;deletable=0;connectable=0;" vertex="1" parent="bg-layer"><mxGeometry x="1181" y="22" width="20" height="18" as="geometry"/></mxCell>
+        <mxCell id="zone-col-6" value="6" style="text;html=1;align=center;verticalAlign=middle;fontSize=9;fontColor=#999999;moveable=0;editable=0;deletable=0;connectable=0;" vertex="1" parent="bg-layer"><mxGeometry x="1439" y="22" width="20" height="18" as="geometry"/></mxCell>
+        <mxCell id="zone-row-A" value="A" style="text;html=1;align=center;verticalAlign=middle;fontSize=9;fontColor=#999999;moveable=0;editable=0;deletable=0;connectable=0;" vertex="1" parent="bg-layer"><mxGeometry x="22" y="152" width="18" height="20" as="geometry"/></mxCell>
+        <mxCell id="zone-row-B" value="B" style="text;html=1;align=center;verticalAlign=middle;fontSize=9;fontColor=#999999;moveable=0;editable=0;deletable=0;connectable=0;" vertex="1" parent="bg-layer"><mxGeometry x="22" y="410" width="18" height="20" as="geometry"/></mxCell>
+        <mxCell id="zone-row-C" value="C" style="text;html=1;align=center;verticalAlign=middle;fontSize=9;fontColor=#999999;moveable=0;editable=0;deletable=0;connectable=0;" vertex="1" parent="bg-layer"><mxGeometry x="22" y="668" width="18" height="20" as="geometry"/></mxCell>
+        <mxCell id="zone-row-D" value="D" style="text;html=1;align=center;verticalAlign=middle;fontSize=9;fontColor=#999999;moveable=0;editable=0;deletable=0;connectable=0;" vertex="1" parent="bg-layer"><mxGeometry x="22" y="900" width="18" height="20" as="geometry"/></mxCell>
+
+        <!-- ============================================================ -->
+        <!-- TITLE BLOCK                                                  -->
+        <!-- ============================================================ -->
+        <mxCell id="tb-frame" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#1a1a2e;strokeWidth=2;moveable=0;deletable=0;connectable=0;resizable=0;" vertex="1" parent="bg-layer"><mxGeometry x="1080" y="900" width="495" height="175" as="geometry"/></mxCell>
+        <mxCell id="tb-project-label" value="&lt;font style=&quot;font-size:8px;color:#666666&quot;&gt;PROJECT&lt;/font&gt;" style="text;html=1;align=left;verticalAlign=top;spacingLeft=2;whiteSpace=wrap;moveable=0;editable=0;deletable=0;connectable=0;" vertex="1" parent="bg-layer"><mxGeometry x="1085" y="897" width="60" height="12" as="geometry"/></mxCell>
+        <mxCell id="tb-project-value" value="&lt;b&gt;StreamDeck Pi&lt;/b&gt;" style="text;html=1;align=left;verticalAlign=top;spacingTop=2;spacingLeft=2;whiteSpace=wrap;fontSize=12;fontColor=#1a1a2e;moveable=0;deletable=0;connectable=0;" vertex="1" parent="bg-layer"><mxGeometry x="1085" y="909" width="245" height="25" as="geometry"/></mxCell>
+        <mxCell id="tb-divider-v1" value="" style="rounded=0;whiteSpace=wrap;fillColor=#1a1a2e;strokeColor=none;moveable=0;editable=0;deletable=0;connectable=0;resizable=0;" vertex="1" parent="bg-layer"><mxGeometry x="1330" y="900" width="1" height="45" as="geometry"/></mxCell>
+        <mxCell id="tb-dwgno-label" value="&lt;font style=&quot;font-size:8px;color:#666666&quot;&gt;DRAWING NO.&lt;/font&gt;" style="text;html=1;align=left;verticalAlign=top;spacingLeft=2;whiteSpace=wrap;moveable=0;editable=0;deletable=0;connectable=0;" vertex="1" parent="bg-layer"><mxGeometry x="1335" y="897" width="80" height="12" as="geometry"/></mxCell>
+        <mxCell id="tb-dwgno-value" value="&lt;b&gt;STREAMDECK-CONC-001&lt;/b&gt;" style="text;html=1;align=left;verticalAlign=top;spacingTop=2;spacingLeft=2;whiteSpace=wrap;fontSize=14;fontColor=#1a1a2e;fontStyle=1;moveable=0;deletable=0;connectable=0;" vertex="1" parent="bg-layer"><mxGeometry x="1335" y="909" width="235" height="25" as="geometry"/></mxCell>
+        <mxCell id="tb-divider-h1" value="" style="rounded=0;whiteSpace=wrap;fillColor=#1a1a2e;strokeColor=none;moveable=0;editable=0;deletable=0;connectable=0;resizable=0;" vertex="1" parent="bg-layer"><mxGeometry x="1080" y="945" width="495" height="1" as="geometry"/></mxCell>
+        <mxCell id="tb-title-label" value="&lt;font style=&quot;font-size:8px;color:#666666&quot;&gt;TITLE&lt;/font&gt;" style="text;html=1;align=left;verticalAlign=top;spacingLeft=2;whiteSpace=wrap;moveable=0;editable=0;deletable=0;connectable=0;" vertex="1" parent="bg-layer"><mxGeometry x="1085" y="942" width="40" height="12" as="geometry"/></mxCell>
+        <mxCell id="tb-title-value" value="&lt;b&gt;StreamDeck Pi - Front Panel Layout Concept&lt;/b&gt;" style="text;html=1;align=left;verticalAlign=top;spacingTop=2;spacingLeft=2;whiteSpace=wrap;fontSize=14;fontColor=#1a1a2e;moveable=0;deletable=0;connectable=0;" vertex="1" parent="bg-layer"><mxGeometry x="1085" y="954" width="485" height="25" as="geometry"/></mxCell>
+        <mxCell id="tb-divider-h2" value="" style="rounded=0;whiteSpace=wrap;fillColor=#1a1a2e;strokeColor=none;moveable=0;editable=0;deletable=0;connectable=0;resizable=0;" vertex="1" parent="bg-layer"><mxGeometry x="1080" y="990" width="495" height="1" as="geometry"/></mxCell>
+        <mxCell id="tb-author-label" value="&lt;font style=&quot;font-size:8px;color:#666666&quot;&gt;AUTHOR&lt;/font&gt;" style="text;html=1;align=left;verticalAlign=top;spacingLeft=2;whiteSpace=wrap;moveable=0;editable=0;deletable=0;connectable=0;" vertex="1" parent="bg-layer"><mxGeometry x="1085" y="987" width="50" height="12" as="geometry"/></mxCell>
+        <mxCell id="tb-author-value" value="Mike &amp;amp; Maia" style="text;html=1;align=left;verticalAlign=top;spacingTop=2;spacingLeft=2;whiteSpace=wrap;fontSize=11;fontColor=#1a1a2e;moveable=0;deletable=0;connectable=0;" vertex="1" parent="bg-layer"><mxGeometry x="1085" y="999" width="120" height="20" as="geometry"/></mxCell>
+        <mxCell id="tb-divider-v2" value="" style="rounded=0;whiteSpace=wrap;fillColor=#1a1a2e;strokeColor=none;moveable=0;editable=0;deletable=0;connectable=0;resizable=0;" vertex="1" parent="bg-layer"><mxGeometry x="1210" y="990" width="1" height="35" as="geometry"/></mxCell>
+        <mxCell id="tb-date-label" value="&lt;font style=&quot;font-size:8px;color:#666666&quot;&gt;DATE&lt;/font&gt;" style="text;html=1;align=left;verticalAlign=top;spacingLeft=2;whiteSpace=wrap;moveable=0;editable=0;deletable=0;connectable=0;" vertex="1" parent="bg-layer"><mxGeometry x="1215" y="987" width="40" height="12" as="geometry"/></mxCell>
+        <mxCell id="tb-date-value" value="2026-04-05" style="text;html=1;align=left;verticalAlign=top;spacingTop=2;spacingLeft=2;whiteSpace=wrap;fontSize=11;fontColor=#1a1a2e;moveable=0;deletable=0;connectable=0;" vertex="1" parent="bg-layer"><mxGeometry x="1215" y="999" width="120" height="20" as="geometry"/></mxCell>
+        <mxCell id="tb-divider-v3" value="" style="rounded=0;whiteSpace=wrap;fillColor=#1a1a2e;strokeColor=none;moveable=0;editable=0;deletable=0;connectable=0;resizable=0;" vertex="1" parent="bg-layer"><mxGeometry x="1340" y="990" width="1" height="35" as="geometry"/></mxCell>
+        <mxCell id="tb-status-label" value="&lt;font style=&quot;font-size:8px;color:#666666&quot;&gt;STATUS&lt;/font&gt;" style="text;html=1;align=left;verticalAlign=top;spacingLeft=2;whiteSpace=wrap;moveable=0;editable=0;deletable=0;connectable=0;" vertex="1" parent="bg-layer"><mxGeometry x="1345" y="987" width="50" height="12" as="geometry"/></mxCell>
+        <mxCell id="tb-status-value" value="&lt;b&gt;PRELIMINARY&lt;/b&gt;" style="text;html=1;align=left;verticalAlign=top;spacingTop=2;spacingLeft=2;whiteSpace=wrap;fontSize=12;fontColor=#e65100;moveable=0;deletable=0;connectable=0;" vertex="1" parent="bg-layer"><mxGeometry x="1345" y="999" width="120" height="20" as="geometry"/></mxCell>
+        <mxCell id="tb-divider-v4" value="" style="rounded=0;whiteSpace=wrap;fillColor=#1a1a2e;strokeColor=none;moveable=0;editable=0;deletable=0;connectable=0;resizable=0;" vertex="1" parent="bg-layer"><mxGeometry x="1470" y="990" width="1" height="35" as="geometry"/></mxCell>
+        <mxCell id="tb-sheet-label" value="&lt;font style=&quot;font-size:8px;color:#666666&quot;&gt;SHEET&lt;/font&gt;" style="text;html=1;align=left;verticalAlign=top;spacingLeft=2;whiteSpace=wrap;moveable=0;editable=0;deletable=0;connectable=0;" vertex="1" parent="bg-layer"><mxGeometry x="1475" y="987" width="40" height="12" as="geometry"/></mxCell>
+        <mxCell id="tb-sheet-value" value="1 of 1" style="text;html=1;align=left;verticalAlign=top;spacingTop=2;spacingLeft=2;whiteSpace=wrap;fontSize=11;fontColor=#1a1a2e;moveable=0;deletable=0;connectable=0;" vertex="1" parent="bg-layer"><mxGeometry x="1475" y="999" width="90" height="20" as="geometry"/></mxCell>
+        <mxCell id="tb-divider-h3" value="" style="rounded=0;whiteSpace=wrap;fillColor=#1a1a2e;strokeColor=none;moveable=0;editable=0;deletable=0;connectable=0;resizable=0;" vertex="1" parent="bg-layer"><mxGeometry x="1080" y="1025" width="495" height="1" as="geometry"/></mxCell>
+        <mxCell id="tb-rev-label" value="&lt;font style=&quot;font-size:8px;color:#666666&quot;&gt;REV&lt;/font&gt;" style="text;html=1;align=left;verticalAlign=top;spacingLeft=2;whiteSpace=wrap;moveable=0;editable=0;deletable=0;connectable=0;" vertex="1" parent="bg-layer"><mxGeometry x="1085" y="1022" width="30" height="12" as="geometry"/></mxCell>
+        <mxCell id="tb-rev-value" value="&lt;b&gt;A&lt;/b&gt;" style="text;html=1;align=left;verticalAlign=top;spacingTop=2;spacingLeft=2;whiteSpace=wrap;fontSize=16;fontColor=#1a1a2e;moveable=0;deletable=0;connectable=0;" vertex="1" parent="bg-layer"><mxGeometry x="1085" y="1034" width="40" height="30" as="geometry"/></mxCell>
+        <mxCell id="tb-divider-v5" value="" style="rounded=0;whiteSpace=wrap;fillColor=#1a1a2e;strokeColor=none;moveable=0;editable=0;deletable=0;connectable=0;resizable=0;" vertex="1" parent="bg-layer"><mxGeometry x="1130" y="1025" width="1" height="50" as="geometry"/></mxCell>
+        <mxCell id="tb-revdesc-label" value="&lt;font style=&quot;font-size:8px;color:#666666&quot;&gt;REVISION DESCRIPTION&lt;/font&gt;" style="text;html=1;align=left;verticalAlign=top;spacingLeft=2;whiteSpace=wrap;moveable=0;editable=0;deletable=0;connectable=0;" vertex="1" parent="bg-layer"><mxGeometry x="1135" y="1022" width="120" height="12" as="geometry"/></mxCell>
+        <mxCell id="tb-revdesc-value" value="Initial issue" style="text;html=1;align=left;verticalAlign=top;spacingTop=2;spacingLeft=2;whiteSpace=wrap;fontSize=10;fontColor=#1a1a2e;moveable=0;deletable=0;connectable=0;" vertex="1" parent="bg-layer"><mxGeometry x="1135" y="1034" width="300" height="30" as="geometry"/></mxCell>
+        <mxCell id="tb-divider-v6" value="" style="rounded=0;whiteSpace=wrap;fillColor=#1a1a2e;strokeColor=none;moveable=0;editable=0;deletable=0;connectable=0;resizable=0;" vertex="1" parent="bg-layer"><mxGeometry x="1440" y="1025" width="1" height="50" as="geometry"/></mxCell>
+        <mxCell id="tb-revdate-label" value="&lt;font style=&quot;font-size:8px;color:#666666&quot;&gt;DATE&lt;/font&gt;" style="text;html=1;align=left;verticalAlign=top;spacingLeft=2;whiteSpace=wrap;moveable=0;editable=0;deletable=0;connectable=0;" vertex="1" parent="bg-layer"><mxGeometry x="1445" y="1022" width="40" height="12" as="geometry"/></mxCell>
+        <mxCell id="tb-revdate-value" value="2026-04-05" style="text;html=1;align=left;verticalAlign=top;spacingTop=2;spacingLeft=2;whiteSpace=wrap;fontSize=10;fontColor=#1a1a2e;moveable=0;deletable=0;connectable=0;" vertex="1" parent="bg-layer"><mxGeometry x="1445" y="1034" width="120" height="30" as="geometry"/></mxCell>
+
+        <!-- ============================================================ -->
+        <!-- CONTENT LAYER                                                -->
+        <!-- ============================================================ -->
+
+        <!-- Dead centre: (800, 550) for 1600x1100 -->
+        <!-- Scale: 3px per mm (case 435x70mm = 1305x210px) -->
+        <!-- Case origin: (800 - 1305/2, 420 - 210/2) = (147.5, 315) -->
+        <!-- Case end: (147.5 + 1305, 315 + 210) = (1452.5, 525) -->
+        <!-- Display: 111x62mm = 333x186px, centred at (800, 420) -->
+        <!-- Display origin: (800-166.5, 420-93) = (633.5, 327) -->
+
+        <!-- Layout plan:
+             Scale: 3px per 1mm
+             Case: x=148, y=315, w=1305, h=210
+             Centre: (800, 420)
+             Display: x=634, y=327, w=333, h=186 (centred)
+             Left buttons: x=594, 4 circles r=12, spacing 42px, centred vertically
+             Right buttons: x=997, mirror of left
+             Left available zone: x=158 to x=560, y=325 to y=515
+             Right available zone: x=1040 to x=1443, y=325 to y=515
+             Dimension arrows: outside case outline
+        -->
+
+        <!-- ======== CASE OUTLINE ======== -->
+        <mxCell id="case" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#1a1a2e;strokeWidth=2;arcSize=1;" vertex="1" parent="content-layer">
+          <mxGeometry x="148" y="315" width="1305" height="210" as="geometry"/>
+        </mxCell>
+
+        <!-- ======== 5" DISPLAY (centre) ======== -->
+        <mxCell id="display" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#0f3460;strokeWidth=2;dashed=1;dashPattern=8 4;" vertex="1" parent="content-layer">
+          <mxGeometry x="634" y="327" width="333" height="186" as="geometry"/>
+        </mxCell>
+        <mxCell id="display-label" value="5&quot; Display" style="text;html=1;align=center;verticalAlign=middle;fontSize=14;fontStyle=1;fontColor=#0f3460;" vertex="1" parent="content-layer">
+          <mxGeometry x="634" y="390" width="333" height="24" as="geometry"/>
+        </mxCell>
+        <mxCell id="display-dims" value="111 x 62mm | 800x480" style="text;html=1;align=center;verticalAlign=middle;fontSize=10;fontColor=#999999;" vertex="1" parent="content-layer">
+          <mxGeometry x="634" y="418" width="333" height="20" as="geometry"/>
+        </mxCell>
+        <!-- Display centre crosshair -->
+        <mxCell id="display-ch-h" value="" style="endArrow=none;strokeColor=#cccccc;strokeWidth=1;dashed=1;dashPattern=4 4;" edge="1" parent="content-layer">
+          <mxGeometry relative="1" as="geometry"><mxPoint x="634" y="420" as="sourcePoint"/><mxPoint x="967" y="420" as="targetPoint"/></mxGeometry>
+        </mxCell>
+        <mxCell id="display-ch-v" value="" style="endArrow=none;strokeColor=#cccccc;strokeWidth=1;dashed=1;dashPattern=4 4;" edge="1" parent="content-layer">
+          <mxGeometry relative="1" as="geometry"><mxPoint x="800" y="327" as="sourcePoint"/><mxPoint x="800" y="513" as="targetPoint"/></mxGeometry>
+        </mxCell>
+
+        <!-- ======== LEFT BUTTONS (source selection) ======== -->
+        <!-- 4 buttons, 8mm dia = 24px dia = r12, 14mm spacing = 42px -->
+        <!-- Column centre x = 634 - 30 - 12 = 592 -->
+        <!-- Vertical: centred in 210px height. 3 gaps of 42px = 126px total span. Start: 420 - 63 = 357 -->
+        <mxCell id="btn-l1" value="" style="ellipse;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#e65100;strokeWidth=1;dashed=1;" vertex="1" parent="content-layer">
+          <mxGeometry x="580" y="345" width="24" height="24" as="geometry"/>
+        </mxCell>
+        <mxCell id="btn-l1-lbl" value="BBC" style="text;html=1;align=right;verticalAlign=middle;fontSize=9;fontColor=#e65100;" vertex="1" parent="content-layer">
+          <mxGeometry x="530" y="349" width="44" height="16" as="geometry"/>
+        </mxCell>
+        <mxCell id="btn-l2" value="" style="ellipse;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#e65100;strokeWidth=1;dashed=1;" vertex="1" parent="content-layer">
+          <mxGeometry x="580" y="387" width="24" height="24" as="geometry"/>
+        </mxCell>
+        <mxCell id="btn-l2-lbl" value="TIDAL" style="text;html=1;align=right;verticalAlign=middle;fontSize=9;fontColor=#e65100;" vertex="1" parent="content-layer">
+          <mxGeometry x="525" y="391" width="49" height="16" as="geometry"/>
+        </mxCell>
+        <mxCell id="btn-l3" value="" style="ellipse;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#e65100;strokeWidth=1;dashed=1;" vertex="1" parent="content-layer">
+          <mxGeometry x="580" y="429" width="24" height="24" as="geometry"/>
+        </mxCell>
+        <mxCell id="btn-l3-lbl" value="PLEX" style="text;html=1;align=right;verticalAlign=middle;fontSize=9;fontColor=#e65100;" vertex="1" parent="content-layer">
+          <mxGeometry x="530" y="433" width="44" height="16" as="geometry"/>
+        </mxCell>
+        <mxCell id="btn-l4" value="" style="ellipse;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#e65100;strokeWidth=1;dashed=1;" vertex="1" parent="content-layer">
+          <mxGeometry x="580" y="471" width="24" height="24" as="geometry"/>
+        </mxCell>
+        <mxCell id="btn-l4-lbl" value="RADIO" style="text;html=1;align=right;verticalAlign=middle;fontSize=9;fontColor=#e65100;" vertex="1" parent="content-layer">
+          <mxGeometry x="523" y="475" width="51" height="16" as="geometry"/>
+        </mxCell>
+
+        <!-- ======== RIGHT BUTTONS (user-assignable) ======== -->
+        <!-- Mirror at x = 967 + 30 - 12 = 985 -->
+        <mxCell id="btn-r1" value="" style="ellipse;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#0f3460;strokeWidth=1;dashed=1;" vertex="1" parent="content-layer">
+          <mxGeometry x="997" y="345" width="24" height="24" as="geometry"/>
+        </mxCell>
+        <mxCell id="btn-r1-lbl" value="1" style="text;html=1;align=left;verticalAlign=middle;fontSize=9;fontColor=#0f3460;" vertex="1" parent="content-layer">
+          <mxGeometry x="1027" y="349" width="20" height="16" as="geometry"/>
+        </mxCell>
+        <mxCell id="btn-r2" value="" style="ellipse;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#0f3460;strokeWidth=1;dashed=1;" vertex="1" parent="content-layer">
+          <mxGeometry x="997" y="387" width="24" height="24" as="geometry"/>
+        </mxCell>
+        <mxCell id="btn-r2-lbl" value="2" style="text;html=1;align=left;verticalAlign=middle;fontSize=9;fontColor=#0f3460;" vertex="1" parent="content-layer">
+          <mxGeometry x="1027" y="391" width="20" height="16" as="geometry"/>
+        </mxCell>
+        <mxCell id="btn-r3" value="" style="ellipse;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#0f3460;strokeWidth=1;dashed=1;" vertex="1" parent="content-layer">
+          <mxGeometry x="997" y="429" width="24" height="24" as="geometry"/>
+        </mxCell>
+        <mxCell id="btn-r3-lbl" value="3" style="text;html=1;align=left;verticalAlign=middle;fontSize=9;fontColor=#0f3460;" vertex="1" parent="content-layer">
+          <mxGeometry x="1027" y="433" width="20" height="16" as="geometry"/>
+        </mxCell>
+        <mxCell id="btn-r4" value="" style="ellipse;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#0f3460;strokeWidth=1;dashed=1;" vertex="1" parent="content-layer">
+          <mxGeometry x="997" y="471" width="24" height="24" as="geometry"/>
+        </mxCell>
+        <mxCell id="btn-r4-lbl" value="4" style="text;html=1;align=left;verticalAlign=middle;fontSize=9;fontColor=#0f3460;" vertex="1" parent="content-layer">
+          <mxGeometry x="1027" y="475" width="20" height="16" as="geometry"/>
+        </mxCell>
+
+        <!-- ======== AVAILABLE ZONES ======== -->
+        <!-- Left zone: from case left edge + padding to left buttons -->
+        <mxCell id="zone-left" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#cccccc;strokeWidth=1;dashed=1;dashPattern=4 4;opacity=50;" vertex="1" parent="content-layer">
+          <mxGeometry x="158" y="325" width="400" height="190" as="geometry"/>
+        </mxCell>
+        <mxCell id="zone-left-lbl" value="Available" style="text;html=1;align=center;verticalAlign=middle;fontSize=12;fontColor=#cccccc;" vertex="1" parent="content-layer">
+          <mxGeometry x="158" y="405" width="400" height="30" as="geometry"/>
+        </mxCell>
+
+        <!-- Right zone: from right buttons to case right edge -->
+        <mxCell id="zone-right" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#cccccc;strokeWidth=1;dashed=1;dashPattern=4 4;opacity=50;" vertex="1" parent="content-layer">
+          <mxGeometry x="1043" y="325" width="400" height="190" as="geometry"/>
+        </mxCell>
+        <mxCell id="zone-right-lbl" value="Available" style="text;html=1;align=center;verticalAlign=middle;fontSize=12;fontColor=#cccccc;" vertex="1" parent="content-layer">
+          <mxGeometry x="1043" y="405" width="400" height="30" as="geometry"/>
+        </mxCell>
+
+        <!-- ======== DIMENSION ARROWS ======== -->
+        <!-- Width: 435mm -->
+        <mxCell id="dim-w" value="" style="endArrow=block;startArrow=block;endFill=1;startFill=1;strokeColor=#999999;strokeWidth=1;" edge="1" parent="content-layer">
+          <mxGeometry relative="1" as="geometry"><mxPoint x="148" y="280" as="sourcePoint"/><mxPoint x="1453" y="280" as="targetPoint"/></mxGeometry>
+        </mxCell>
+        <mxCell id="dim-w-lbl" value="435mm" style="text;html=1;align=center;verticalAlign=middle;fontSize=10;fontColor=#999999;labelBackgroundColor=#ffffff;" vertex="1" parent="content-layer">
+          <mxGeometry x="760" y="270" width="80" height="20" as="geometry"/>
+        </mxCell>
+
+        <!-- Height: 70mm -->
+        <mxCell id="dim-h" value="" style="endArrow=block;startArrow=block;endFill=1;startFill=1;strokeColor=#999999;strokeWidth=1;" edge="1" parent="content-layer">
+          <mxGeometry relative="1" as="geometry"><mxPoint x="100" y="315" as="sourcePoint"/><mxPoint x="100" y="525" as="targetPoint"/></mxGeometry>
+        </mxCell>
+        <mxCell id="dim-h-lbl" value="70mm" style="text;html=1;align=center;verticalAlign=middle;fontSize=10;fontColor=#999999;labelBackgroundColor=#ffffff;rotation=-90;" vertex="1" parent="content-layer">
+          <mxGeometry x="70" y="410" width="60" height="20" as="geometry"/>
+        </mxCell>
+
+        <!-- ======== NOTES ======== -->
+        <mxCell id="note-scale" value="Scale: 3px per mm | Case: 435 x 70mm | Display: 111 x 62mm (5&quot;)" style="text;html=1;align=center;verticalAlign=middle;fontSize=10;fontColor=#999999;" vertex="1" parent="content-layer">
+          <mxGeometry x="300" y="560" width="600" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="note-left" value="Source buttons (left): BBC, TIDAL, PLEX, RADIO" style="text;html=1;align=left;verticalAlign=middle;fontSize=9;fontColor=#e65100;" vertex="1" parent="content-layer">
+          <mxGeometry x="148" y="590" width="350" height="18" as="geometry"/>
+        </mxCell>
+        <mxCell id="note-right" value="Function buttons (right): user-assignable 1-4" style="text;html=1;align=left;verticalAlign=middle;fontSize=9;fontColor=#0f3460;" vertex="1" parent="content-layer">
+          <mxGeometry x="148" y="610" width="350" height="18" as="geometry"/>
+        </mxCell>
+        <mxCell id="note-avail" value="Available zones: VU meters, branding, mesh, rotary encoder, or other elements" style="text;html=1;align=left;verticalAlign=middle;fontSize=9;fontColor=#999999;" vertex="1" parent="content-layer">
+          <mxGeometry x="148" y="630" width="500" height="18" as="geometry"/>
+        </mxCell>
+
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

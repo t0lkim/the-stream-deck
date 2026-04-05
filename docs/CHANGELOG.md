@@ -2,6 +2,18 @@
 
 All notable changes to the StreamDeck Pi project.
 
+## [0.3.0] - 2026-04-05
+
+### Added
+- Front panel layout concept diagram (STREAMDECK-CONC-001 Rev A) — 5" display centred, source buttons flanking, available zones for VU meters
+- Blank wireframe PDFs for free sketching — 70mm (x3) and 102mm (x2) form factors at 92% scale on A3
+- Case wireframe PDFs with four layout options (circular + rectangular VU meters) at 70mm height
+
+### Changed
+- Display decision revised: 13.3" and 10.1" too tall for NAD-matching form factor. 5" (111 x 62mm) is the max that fits 70mm case height.
+- Form factor locked to 435mm width (NAD C 3xx standard). Max height 70mm (NAD C 338 profile).
+- VU meter sizing revised: 45-50mm circular or 60x40mm rectangular at 70mm case height. 85mm meters no longer viable.
+
 ## [0.2.0] - 2026-04-05
 
 ### Added
