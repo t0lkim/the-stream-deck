@@ -13,3 +13,6 @@ fp-info-cache
 target/
 .build/
 TIMECONFIG.json
+
+# Code (not yet written)
+code/
