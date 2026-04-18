@@ -2,12 +2,34 @@
 
 All notable changes to TheStreamDeck project.
 
+## [0.4.0] - 2026-04-12
+
+### Added
+- Bandcamp as a streaming source (discovery/browse only — purchased FLACs remain in Plexamp path)
+- NTS Radio (ntslive.co.uk) — two 24/7 live channels, web player or MPD fallback
+- Worldwide.fm — curated DJ-driven internet radio, web player or MPD fallback
+- §3.7 Network Layer: BBC VPN split-tunnel via Mullvad WireGuard with automatic UK-endpoint rotation on failure
+- Tiered Tidal client strategy: SONE (Tauri 2/Rust, best stack fit) → tidalt (confirmed ARM64) → custom Rust client → play.tidal.com (lossy last resort)
+- Source category table in §3.3 (native backend / standalone app / web-native / Chromium escalation)
+- Mullvad VPN subscription added to BOM (€5/month)
+- 5 new risk entries (Tidal API breakage, SONE ARM64 viability, WebKitGTK source compat, VPN rotation exhaustion, panel space for 5th button)
+
+### Changed
+- **UI architecture: Slint → Tauri 2 (Rust + WebKitGTK)** — native Rust backend for GPIO/PipeWire/SPI, WebKitGTK webview hosts per-source web UIs. Chromium available as per-source escalation fallback.
+- Tidal control model: cast-from-phone (GioF71/tidal-connect) → 100% on-device control via dedicated Linux client (SONE/tidalt/custom). Lossless FLAC preserved.
+- Plexamp control model: cast-only → primary control from StreamDeck touchscreen via localhost:32500 in Tauri webview. Cast-from-phone remains as bonus.
+- Source switching architecture diagram updated for 7 sources + Tauri shell ownership
+- VU meter on-screen pipeline: Slint widget → Tauri IPC + Canvas/WebGL in webview (physical MCP4922 path unchanged)
+- Build phases restructured: Phase 2 now covers VPN + additional sources, Phase 3 covers Tauri shell + display
+- GPIO button table: added Bandcamp (GPIO 25), renumbered Radio to button 5, Play/Pause to 6, Volume to 7
+- UI Technology Options table: added Option E (Tauri 2), marked as selected. Slint (Option B) rejected — no native webview for per-source UIs.
+- Risks table: replaced stale Tidal Connect and Slint risks with Tauri/WebKitGTK, VPN, and new-source-specific risks
+
 ## [0.3.1] - 2026-04-05
 
 ### Changed
 - Project renamed from "StreamDeck Pi" to "TheStreamDeck"
-- Project directory moved from `PROJECTS/private/streaming-appliance/` to `PROJECTS/public/TheStreamDeck/`
-- All references updated across specs, diagrams, KiCad schematic, LaTeX sources, and PAI memory
+- All references updated across specs, diagrams, KiCad schematic, and LaTeX sources
 
 ## [0.3.0] - 2026-04-05
 
