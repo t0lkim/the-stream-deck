@@ -12,3 +12,4 @@ fp-info-cache
 # Build
 target/
 .build/
+TIMECONFIG.json
